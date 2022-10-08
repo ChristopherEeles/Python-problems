@@ -18,6 +18,7 @@ Kevin's vowel beginning word = ANA
 
 Here, ANA occurs twice in BANANA. Hence, Kevin will get 2 Points.
 
+
 Solution:
 Solving this requires we notice the pattern that the number
 of occurences of substrings of a word is equal to the length of the
@@ -37,6 +38,7 @@ ANA
 ANAN
 ANANA
 5 words therefore score of 5, len(BANANA) - index of A = 6 - 1 = 5
+
 This continues pattern continues for the whole string, therefore we can
 solve this in O(N)
 """
